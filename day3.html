@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #ham :hover{
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!-- <form action="\"> -->
+    <p id="ham"><label for="lk">first name</label>
+    <input type="text" id="lk">
+</p>
+<p id="ham">
+    <label for="pk">password</label>
+    <input type="password" id="pk">
+</p>
+<p id="ham">
+    <label for="ak">E-mail</label>
+    <input type="email" id="ak">
+</p>
+<p id="ham">
+    <label for="nk">Male</label>
+    <input type="radio" id="nk" name="Male" value="male">
+    <label for="dk">female</label>
+    <input type="radio" id="dk" name="Male" value="female">
+</p>
+<p id="ham">
+    <h3>Skills</h3>
+    <label for="kk">c++</label>
+    <input type="checkbox" id="kk">
+    <br>
+    <label for="mm">c language</label>
+    <input type="checkbox" id="mm">
+    <br>
+    <label for="nn">java</label>
+    <input type="checkbox" id="nn">
+</p>
+<button onclick="savedata()">savedata</button>
+<!-- </form> -->
+<script>
+    function savedata(){
+    const fname=document.getElementById('lk').value;
+    console.log (fname)}
+</script>
+</body>
+</html>
